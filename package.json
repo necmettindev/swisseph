@@ -20,16 +20,11 @@
     "nan": "^2.22.0",
     "node-gyp": "^11.0.0"
   },
-  "devDependencies": {
-  "@types/bun": "latest"
-},
-"optionalDependencies": {},
-"scripts": {
-  "install": "node-gyp rebuild",
-  "test": "node test/test.js",
-  "start": "node app.js"
-},
-"peerDependencies": {
-  "typescript": "^5.0.0"
-}
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "node test/test.js",
+    "start": "node app.js"
+  }
 }
